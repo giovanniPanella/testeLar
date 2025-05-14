@@ -1,12 +1,12 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using testeLar.Models;
 
 public class Pessoa
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
-    public string? Id { get; set; } // pode ser nulo inicialmente
-
+    public string? Id { get; set; } 
     public string? Nome { get; set; }
 
     public string? Cpf { get; set; }

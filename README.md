@@ -1,6 +1,7 @@
 # testeLar API (.NET 8 + MongoDB)
 
 API RESTful desenvolvida em .NET 8 com MongoDB, no padrão MVC, para cadastro de pessoas e seus respectivos telefones.
+Para este Teste Decidi persistir dados em um Banco de Dados noSQL(MongoDb).
 
 ## O que Usei no Projeto
 
@@ -65,7 +66,7 @@ http://localhost:5140/swagger
 http://localhost:5140/api/pessoa
 
 {
-  "nome": "Giovanni Gilles Panella",
+  "nome": "teste01",
   "cpf": "123.456.789-00",
   "dataDeNascimento": "1983-09-12T00:00:00",
   "status": true,
@@ -102,10 +103,10 @@ Edita Pessoa por ID.
 http://localhost:5140/api/pessoa/{id}
 
 {
-  "nome": "Giovanni Gilles Panella",
+  "nome": "teste01",
   "cpf": "123.456.789-00",
   "dataDeNascimento": "1983-09-12T00:00:00",
-  "status": False,
+  "status": True,
   "telefones": [
     {
       "tipo": "Celular",
@@ -113,7 +114,7 @@ http://localhost:5140/api/pessoa/{id}
     },
     {
       "tipo": "Residencial",
-      "numero": "3333-5678"
+      "numero": "3333-5674"
     }
   ]
 }
@@ -135,6 +136,7 @@ testeLar/
 ├── Models/           # Entidades e DTOs
 ├── Services/         # Regras de negócio
 ├── Data/             # Configuração do MongoDB
+├── logs/             # Logs gerados da API
 ├── appsettings.json  # Configs da aplicação
 ├── Program.cs        # Startup do app
 ```
