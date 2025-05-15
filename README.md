@@ -60,6 +60,7 @@ http://localhost:5140/swagger
 
 
 ## Endpoints principais
+Pode ser usado o Insomnia ou Postman para testar as Rotas
 
 ### POST
 ```bash
