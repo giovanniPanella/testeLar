@@ -30,5 +30,5 @@ app.UseSwaggerUI();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
-app.MapGet("/", () => "API testeLar está no ar! Acesse /swagger para visualizar.");
+app.MapGet("/", () => "API Está Online! Acesse http://localhost:5140/swagger/ para visualizar.");
 app.Run();
