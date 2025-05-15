@@ -759,3 +759,56 @@ MongoDB.Driver.MongoWriteException: A write operation resulted in an error. Writ
 2025-05-14 22:13:43.289 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
 2025-05-14 22:13:43.290 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - 404 null application/problem+json; charset=utf-8 25.8676ms
 2025-05-14 22:13:48.790 -03:00 [INF] Application is shutting down...
+2025-05-14 22:14:20.210 -03:00 [INF] Now listening on: http://localhost:5140
+2025-05-14 22:14:20.245 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-14 22:14:20.246 -03:00 [INF] Hosting environment: Development
+2025-05-14 22:14:20.248 -03:00 [INF] Content root path: C:\projetoLar\testeLar
+2025-05-14 22:14:26.776 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - null null
+2025-05-14 22:14:26.805 -03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-14 22:14:26.809 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
+2025-05-14 22:14:26.831 -03:00 [INF] Route matched with {action = "Get", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Pessoa]] Get(System.String) on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:14:27.064 -03:00 [INF] Requisição GET: buscando pessoa com ID: 68253f39254cb5caddb7ba4b
+2025-05-14 22:14:27.135 -03:00 [INF] Executing OkObjectResult, writing value of type 'Pessoa'.
+2025-05-14 22:14:27.190 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Get (testeLar) in 354.3672ms
+2025-05-14 22:14:27.193 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
+2025-05-14 22:14:27.195 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - 200 null application/json; charset=utf-8 420.915ms
+2025-05-14 22:14:54.710 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - application/json 282
+2025-05-14 22:14:54.715 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Put (testeLar)'
+2025-05-14 22:14:54.721 -03:00 [INF] Route matched with {action = "Put", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(System.String, Pessoa) on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:14:54.745 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-05-14 22:14:54.764 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Put (testeLar) in 41.6969ms
+2025-05-14 22:14:54.766 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Put (testeLar)'
+2025-05-14 22:14:54.767 -03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - 400 null application/problem+json; charset=utf-8 57.6912ms
+2025-05-14 22:15:12.688 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - application/json 282
+2025-05-14 22:15:12.691 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Put (testeLar)'
+2025-05-14 22:15:12.692 -03:00 [INF] Route matched with {action = "Put", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(System.String, Pessoa) on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:15:12.706 -03:00 [INF] Requisição PUT: atualizando pessoa com ID: 68253f39254cb5caddb7ba4b
+2025-05-14 22:15:12.770 -03:00 [INF] Pessoa com ID 68253f39254cb5caddb7ba4b atualizada com sucesso
+2025-05-14 22:15:12.772 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-14 22:15:12.779 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Put (testeLar) in 85.4269ms
+2025-05-14 22:15:12.781 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Put (testeLar)'
+2025-05-14 22:15:12.783 -03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - 200 null application/json; charset=utf-8 95.6796ms
+2025-05-14 22:15:23.026 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/pessoa - null null
+2025-05-14 22:15:23.030 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
+2025-05-14 22:15:23.050 -03:00 [INF] Route matched with {action = "Get", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Pessoa]]] Get() on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:15:23.053 -03:00 [INF] Requisição GET: listando pessoas ativas
+2025-05-14 22:15:23.064 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Pessoa, testeLar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-14 22:15:23.068 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Get (testeLar) in 16.0393ms
+2025-05-14 22:15:23.074 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
+2025-05-14 22:15:23.076 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/pessoa - 200 null application/json; charset=utf-8 50.1457ms
+2025-05-14 22:15:42.486 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/api/pessoa - application/json 264
+2025-05-14 22:15:42.488 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Post (testeLar)'
+2025-05-14 22:15:42.492 -03:00 [INF] Route matched with {action = "Post", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(testeLar.Models.DTOs.CreatePessoaDTO) on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:15:42.499 -03:00 [INF] Requisição POST: criando nova pessoa: Teste 03
+2025-05-14 22:15:42.518 -03:00 [ERR] Erro ao criar pessoa: CPF já cadastrado.
+2025-05-14 22:15:42.520 -03:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-14 22:15:42.521 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Post (testeLar) in 27.6889ms
+2025-05-14 22:15:42.523 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Post (testeLar)'
+2025-05-14 22:15:42.524 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/api/pessoa - 400 null application/json; charset=utf-8 38.4703ms
+2025-05-14 22:15:49.663 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/api/pessoa - application/json 256
+2025-05-14 22:15:49.665 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Post (testeLar)'
+2025-05-14 22:15:49.666 -03:00 [INF] Route matched with {action = "Post", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(testeLar.Models.DTOs.CreatePessoaDTO) on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:15:49.668 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-05-14 22:15:49.670 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Post (testeLar) in 1.9626ms
+2025-05-14 22:15:49.671 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Post (testeLar)'
+2025-05-14 22:15:49.672 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/api/pessoa - 400 null application/problem+json; charset=utf-8 9.5758ms
