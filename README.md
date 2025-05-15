@@ -106,7 +106,7 @@ http://localhost:5140/api/pessoa/{id}
   "nome": "teste01",
   "cpf": "123.456.789-00",
   "dataDeNascimento": "1983-09-12T00:00:00",
-  "status": True,
+  "status": true,
   "telefones": [
     {
       "tipo": "Celular",

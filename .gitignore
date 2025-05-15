@@ -4,3 +4,6 @@ obj/
 *.vs
 *.vscode
 *.http
+Logs/
+*.log
+*.txt
