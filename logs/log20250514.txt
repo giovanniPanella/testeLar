@@ -700,3 +700,62 @@ MongoDB.Driver.MongoWriteException: A write operation resulted in an error. Writ
 2025-05-14 20:21:34.313 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Get (testeLar) in 5.4992ms
 2025-05-14 20:21:34.315 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
 2025-05-14 20:21:34.316 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/pessoa/68252454ea6416832bb9e23c - 200 null application/json; charset=utf-8 12.7528ms
+2025-05-14 22:10:30.551 -03:00 [INF] Now listening on: http://localhost:5140
+2025-05-14 22:10:30.588 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-14 22:10:30.590 -03:00 [INF] Hosting environment: Development
+2025-05-14 22:10:30.591 -03:00 [INF] Content root path: C:\projetoLar\testeLar
+2025-05-14 22:10:56.878 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/api/pessoa - application/json 263
+2025-05-14 22:10:56.905 -03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-14 22:10:56.909 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Post (testeLar)'
+2025-05-14 22:10:56.931 -03:00 [INF] Route matched with {action = "Post", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(testeLar.Models.DTOs.CreatePessoaDTO) on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:10:57.218 -03:00 [INF] Requisição POST: criando nova pessoa: Teste 01
+2025-05-14 22:10:57.285 -03:00 [INF] Pessoa criada com sucesso. ID: 68253f21254cb5caddb7ba49
+2025-05-14 22:10:57.291 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'Pessoa'.
+2025-05-14 22:10:57.321 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Post (testeLar) in 385.6778ms
+2025-05-14 22:10:57.325 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Post (testeLar)'
+2025-05-14 22:10:57.328 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/api/pessoa - 201 null application/json; charset=utf-8 450.9369ms
+2025-05-14 22:11:08.487 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/api/pessoa - application/json 263
+2025-05-14 22:11:08.491 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Post (testeLar)'
+2025-05-14 22:11:08.493 -03:00 [INF] Route matched with {action = "Post", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(testeLar.Models.DTOs.CreatePessoaDTO) on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:11:08.496 -03:00 [INF] Requisição POST: criando nova pessoa: Teste 02
+2025-05-14 22:11:08.508 -03:00 [INF] Pessoa criada com sucesso. ID: 68253f2c254cb5caddb7ba4a
+2025-05-14 22:11:08.511 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'Pessoa'.
+2025-05-14 22:11:08.513 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Post (testeLar) in 18.3064ms
+2025-05-14 22:11:08.515 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Post (testeLar)'
+2025-05-14 22:11:08.518 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/api/pessoa - 201 null application/json; charset=utf-8 31.6443ms
+2025-05-14 22:11:21.244 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/api/pessoa - application/json 264
+2025-05-14 22:11:21.247 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Post (testeLar)'
+2025-05-14 22:11:21.248 -03:00 [INF] Route matched with {action = "Post", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(testeLar.Models.DTOs.CreatePessoaDTO) on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:11:21.251 -03:00 [INF] Requisição POST: criando nova pessoa: Teste 03
+2025-05-14 22:11:21.254 -03:00 [INF] Pessoa criada com sucesso. ID: 68253f39254cb5caddb7ba4b
+2025-05-14 22:11:21.256 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'Pessoa'.
+2025-05-14 22:11:21.257 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Post (testeLar) in 7.3247ms
+2025-05-14 22:11:21.259 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Post (testeLar)'
+2025-05-14 22:11:21.260 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/api/pessoa - 201 null application/json; charset=utf-8 16.2957ms
+2025-05-14 22:11:23.794 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/pessoa - null null
+2025-05-14 22:11:23.797 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
+2025-05-14 22:11:23.802 -03:00 [INF] Route matched with {action = "Get", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Pessoa]]] Get() on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:11:23.804 -03:00 [INF] Requisição GET: listando pessoas ativas
+2025-05-14 22:11:23.848 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Pessoa, testeLar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-14 22:11:23.852 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Get (testeLar) in 47.9615ms
+2025-05-14 22:11:23.853 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
+2025-05-14 22:11:23.854 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/pessoa - 200 null application/json; charset=utf-8 60.0839ms
+2025-05-14 22:13:38.617 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - null null
+2025-05-14 22:13:38.619 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
+2025-05-14 22:13:38.625 -03:00 [INF] Route matched with {action = "Get", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Pessoa]] Get(System.String) on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:13:38.628 -03:00 [INF] Requisição GET: buscando pessoa com ID: 68253f39254cb5caddb7ba4b
+2025-05-14 22:13:38.653 -03:00 [WRN] Pessoa com ID 68253f39254cb5caddb7ba4b não encontrada
+2025-05-14 22:13:38.655 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-05-14 22:13:38.672 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Get (testeLar) in 45.58ms
+2025-05-14 22:13:38.674 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
+2025-05-14 22:13:38.675 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - 404 null application/problem+json; charset=utf-8 58.352ms
+2025-05-14 22:13:43.264 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - null null
+2025-05-14 22:13:43.267 -03:00 [INF] Executing endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
+2025-05-14 22:13:43.268 -03:00 [INF] Route matched with {action = "Get", controller = "Pessoa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Pessoa]] Get(System.String) on controller testeLar.Controllers.PessoaController (testeLar).
+2025-05-14 22:13:43.272 -03:00 [INF] Requisição GET: buscando pessoa com ID: 68253f39254cb5caddb7ba4b
+2025-05-14 22:13:43.282 -03:00 [WRN] Pessoa com ID 68253f39254cb5caddb7ba4b não encontrada
+2025-05-14 22:13:43.283 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-05-14 22:13:43.285 -03:00 [INF] Executed action testeLar.Controllers.PessoaController.Get (testeLar) in 14.2507ms
+2025-05-14 22:13:43.289 -03:00 [INF] Executed endpoint 'testeLar.Controllers.PessoaController.Get (testeLar)'
+2025-05-14 22:13:43.290 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/pessoa/68253f39254cb5caddb7ba4b - 404 null application/problem+json; charset=utf-8 25.8676ms
+2025-05-14 22:13:48.790 -03:00 [INF] Application is shutting down...

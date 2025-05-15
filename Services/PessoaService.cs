@@ -25,7 +25,7 @@ namespace testeLar.Services
             await _pessoas.Find(p => p.Status).ToListAsync();
 
         public async Task<Pessoa> GetByIdAsync(string id) =>
-            await _pessoas.Find(p => p.Id == id && p.Status).FirstOrDefaultAsync();
+            await _pessoas.Find(p => p.Id == id).FirstOrDefaultAsync();
 
         public async Task CreateAsync(Pessoa pessoa)
         {

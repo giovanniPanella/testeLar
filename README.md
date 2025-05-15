@@ -44,7 +44,7 @@ Cada `Telefone` possui:
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seuusuario/testeLar.git
+git clone https://github.com/giovanniPanella/testeLar.git
 cd testeLar
 ```
 2. Restaure as dependências:
